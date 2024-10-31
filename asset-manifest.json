@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/UnluckySparow.github.io/chat-app/static/css/main.ee4bcb83.css",
+    "main.js": "/UnluckySparow.github.io/chat-app/static/js/main.4e34d755.js",
+    "static/js/453.8e593f94.chunk.js": "/UnluckySparow.github.io/chat-app/static/js/453.8e593f94.chunk.js",
+    "static/media/bg.jpg": "/UnluckySparow.github.io/chat-app/static/media/bg.c3422f94d7cbd3d89ade.jpg",
+    "index.html": "/UnluckySparow.github.io/chat-app/index.html",
+    "main.ee4bcb83.css.map": "/UnluckySparow.github.io/chat-app/static/css/main.ee4bcb83.css.map",
+    "main.4e34d755.js.map": "/UnluckySparow.github.io/chat-app/static/js/main.4e34d755.js.map",
+    "453.8e593f94.chunk.js.map": "/UnluckySparow.github.io/chat-app/static/js/453.8e593f94.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee4bcb83.css",
+    "static/js/main.4e34d755.js"
+  ]
+}
