@@ -1,0 +1,68 @@
+.div_login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+        h2{
+            margin-bottom:20px;
+            text-align:center;
+        }
+        input{
+            width:100%;
+            border-radius:50px;
+            background: #32012d85;
+            outline: unset !important;
+            border: 1px solid #ff55b594;
+            color: #fff;
+            padding:10px 15px;
+            margin-bottom:20px;
+            text-align:center
+        }
+    }
+
+    .grp_btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        button.btn_signin,button.btn_createaccount{
+            width: 100%;
+            padding: 10px 15px;
+            border: 0px;
+            background: #1a73e875;
+            color: #fff;
+            font-size: 17px;
+            margin-top: 10px;
+            font-weight: 600;
+            text-transform: uppercase;
+            cursor:pointer;
+            transition:all 0.4s ease-in-out;
+            border-radius:50px;
+        }
+        button.btn_signin{background:	#22bb3387;&:disabled{background-color:#22bb342d ;cursor: not-allowed;}}
+        button.btn_signin{&:disabled{background-color:#1a73e83d ;cursor: not-allowed;}}
+        button.btn_signin:hover{background:	#22bb33;}
+        .btn_createaccount:hover{background-color:#1a73e8 ;}
+
+        
+    
+}
+
+.img_log {
+    max-width:250px;
+    margin-inline:auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:15px;
+    margin-bottom:20px;
+    img{
+        width:50px;
+        height:50px;
+        border-radius:50px;
+        object-fit: cover;
+    }
+    label{cursor: pointer;transition: all 0.3s ease-in-out;}
+    label:hover{opacity: 0.7;}
+}

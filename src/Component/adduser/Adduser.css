@@ -1,0 +1,58 @@
+.adduser_div {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    height: max-content;
+    width: max-content;
+    background: #32012db8;
+    padding: 40px 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(53px);
+    form {
+        display: flex;
+        align-items: center;
+        border: 1px solid #32012d0a;
+        margin-bottom: 20px;
+        padding: 7px;
+        border-radius: 6px;
+        background: #5f2647;
+        gap: 10px;
+    }
+    input[type="text"] {
+        font-size: 15px;
+        padding: 0px;
+        background: unset;
+        border: unset;
+        outline: unset;
+        color:#fff ;
+    }
+    button.search_adduser,.btn_adduser {
+        background: #1a73e875;
+        color: #fff;
+        border: unset;
+        padding: 10px;
+        cursor: pointer;
+        border-radius:5px;
+        transition: all 0.2s ease-in-out;
+    }
+    .btn_adduser{background-color: #22bb33;}
+    button.search_adduser:hover,.btn_adduser:hover{opacity: 0.8;}
+    .details_div {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        padding:0px 10px;
+    }
+    .user {
+        display: flex;
+        gap: 15px;
+        flex: 1 1;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom:15px;
+    }
+    .user:last-child {margin-bottom:0px}
+}
